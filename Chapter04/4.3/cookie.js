@@ -6,5 +6,5 @@ http.createServer((req, res) => {
     res.end("Hello Cookie");
 })
     .listen(8083, () => {
-        console.log("8083번 포트에서 서버 대기 중입니다!");
+        console.log("8083번 포트에서 서버 대기 중입니다.");
     });
